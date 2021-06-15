@@ -30,18 +30,20 @@ public class OnlineStoreApplication implements CommandLineRunner {
     private final CategoryRepository categoryRepository;
 
     @Override public void run(String... args) throws Exception {
-        Category category = createCategory();
-        categoryRepository.save(category);
-        Product product = createProduct(category);
-        Product product1 = createProduct(category);
+        Category category1 = createCategory("CATEGORY1", "CATEGORY1 DESCRIPTION 1");
+        categoryRepository.save(category1);
+        Category category2 = createCategory("CATEGORY2", "CATEGORY1 DESCRIPTION 2");
+        categoryRepository.save(category2);
+        Product product = createProduct(category1);
+        Product product1 = createProduct(category2);
         productRepository.save(product);
         productRepository.save(product1);
     }
 
-    private Category createCategory() {
+    private Category createCategory(String name, String desc) {
         Category category = new Category();
-        category.setName("CATEGORY_NAME");
-        category.setDescription("CATEGORY_DESCRIPTION");
+        category.setName(name);
+        category.setDescription(desc);
         return category;
     }
 

@@ -73,8 +73,6 @@ N
 storeclient/src/ProductEdit.js,f/c/fc934f77d560684d883f9f9c99c24f897b63eeea
 r
 Bsrc/test/java/com/hse/onlinestore/OnlineStoreApplicationTests.java,c/1/c17292ad9287a0b712cd62080006208b62282cd4
-F
-storeclient/.gitignore,e/f/ef25a9c295352a24fb87dc333e63302712a392d7
 M
 storeclient/public/index.html,6/3/630344acdb34c8add25ce9e7dfaa0e5e634637eb
 F
@@ -100,3 +98,19 @@ F
 env/docker-compose.yml,a/9/a9201932ab16cb3320caab45102a934d023701d1
 H
 storeclient/package.json,7/1/7187c4a584be97d422044ec08fbbfbfe78bda516
+E
+storeclient/README.md,c/3/c37fd028f4455b007ee723c594b2445320769102
+
+Osrc/main/java/com/hse/onlinestore/exceptions/NotSupportedCurrencyException.java,a/e/aef8d2d370a9ba5473d280768a644bbe411344f6
+z
+Jsrc/test/java/com/hse/onlinestore/controllers/CategoryControllerTests.java,1/c/1c9ca9dab0485909c11ee14e77f3fc6c20ca48ce
+y
+Isrc/test/java/com/hse/onlinestore/controllers/ProductControllerTests.java,a/b/ab6cc7b85ca95171a1ca8289e2c8c1a11698f4ea
+`
+0src/test/java/com/hse/onlinestore/TestUtils.java,e/e/eefa6d0506356a6c3118d624f8374226a52921f3
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+M
+storeclient/package-lock.json,f/6/f6aa2d6c177823bdb27b025a01c82ae13e3b9b8f
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47

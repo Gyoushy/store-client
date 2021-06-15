@@ -96,6 +96,7 @@ class ProductEdit extends Component{
                         <select name="categoryId" id="categoryId" value={item.categoryId || ''}
                                 required onBlur={this.handleChange} onChange={this.handleChange}
                                 autoComplete="address-level1" className="form-control">
+                            <option>Please Select</option>
                             {optionItems}
                         </select>
                     </FormGroup>
@@ -111,8 +112,11 @@ class ProductEdit extends Component{
                             <Input type="text" name="currency" id="currency" value={item.currency || ''}
                                    required onChange={this.handleChange} autoComplete="address-level1"/>*/}
                             <select name="currency" id="currency" value={item.currency || ''}
-                                    required onBlur={this.handleChange} onChange={this.handleChange} className="form-control">
-                                <option selected="selected" value="EUR">EUR</option>
+                                    required onBlur={this.handleChange} onChange={this.handleChange}
+                                    autoComplete="address-level1" className="form-control">
+                                <option>Please Select</option>
+                                <option value="EUR">EUR</option>
+                                <option value="USD">USD</option>
                             </select>
                         </FormGroup>
                         <FormGroup className="col-md-3 mb-3">
@@ -126,6 +130,7 @@ class ProductEdit extends Component{
                             <Label for="freeShipping">free Shipping</Label>
                             <select name="freeShipping" id="freeShipping" value={item.freeShipping}
                                     required onBlur={this.handleChange} onChange={this.handleChange} className="form-control">
+                                <option>Please Select</option>
                                 <option value="true">Yes</option>
                                 <option value="false">No</option>
                             </select>

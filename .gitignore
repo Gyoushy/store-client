@@ -1,0 +1,12 @@
+/target/
+/.idea/
+/.mvn/
+/storeclient/build/
+/storeclient/node/
+/storeclient/node_modules/
+/target/classes/
+/target/generated-sources/
+/target/generated-test-sources/
+/target/maven-status/
+/target/surefire-reports/
+/target/test-classes/

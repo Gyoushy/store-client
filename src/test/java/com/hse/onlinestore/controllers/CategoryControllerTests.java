@@ -57,7 +57,7 @@ class CategoryControllerTests {
     void getCategoryTest() throws Exception {
         this.mockMvc.perform(get("/api/categories/1").contentType(MediaType.APPLICATION_JSON)).andDo(print())
                 .andExpect(status().isOk()).andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.name").value("CATEGORY_NAME"));
+                .andExpect(jsonPath("$.name").value("CATEGORY1"));
     }
 
     @Test

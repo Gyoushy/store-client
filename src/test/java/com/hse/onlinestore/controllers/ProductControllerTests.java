@@ -59,7 +59,7 @@ class ProductControllerTests {
 
     @Test
     void getProductTest() throws Exception {
-        this.mockMvc.perform(get("/api/products/2").contentType(MediaType.APPLICATION_JSON)).andDo(print())
+        this.mockMvc.perform(get("/api/products/3").contentType(MediaType.APPLICATION_JSON)).andDo(print())
                 .andExpect(status().isOk()).andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("$.name").value("PRODUCT_NAME"));
     }
