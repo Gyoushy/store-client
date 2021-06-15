@@ -1,9 +1,0 @@
-
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Å¢½Ÿ/
-U
-java:S1128"9Remove this unused import 'javax.persistence.ManyToMany'.(Àğ½8Å¢½Ÿ/
-Z
-java:S1128"8Remove this unused import 'javax.persistence.JoinTable'.(ùö±µùÿÿÿÿ8Å¢½Ÿ/
-W
-java:S1128":Remove this unused import 'javax.persistence.CascadeType'.( ì¤Ê8µ¤–ßŸ/
