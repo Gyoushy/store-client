@@ -1,0 +1,59 @@
+-------------------------------------------------------------------------------
+Test set: com.hse.onlinestore.services.ProductServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 2.643 s <<< FAILURE! - in com.hse.onlinestore.services.ProductServiceTest
+deleteProductTest  Time elapsed: 0.001 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot instantiate @InjectMocks field named 'productService'! Cause: the type 'ProductServiceImpl' has no default constructor
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+
+editProductTest  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot instantiate @InjectMocks field named 'productService'! Cause: the type 'ProductServiceImpl' has no default constructor
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+
+saveProductInUsdTest  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot instantiate @InjectMocks field named 'productService'! Cause: the type 'ProductServiceImpl' has no default constructor
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+
+listProductTest  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot instantiate @InjectMocks field named 'productService'! Cause: the type 'ProductServiceImpl' has no default constructor
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+
+saveProductInEuroTest  Time elapsed: 0 s  <<< ERROR!
+org.mockito.exceptions.base.MockitoException: 
+
+Cannot instantiate @InjectMocks field named 'productService'! Cause: the type 'ProductServiceImpl' has no default constructor
+You haven't provided the instance at field declaration so I tried to construct the instance.
+Examples of correct usage of @InjectMocks:
+   @InjectMocks Service service = new Service();
+   @InjectMocks Service service;
+   //and... don't forget about some @Mocks for injection :)
+
+
