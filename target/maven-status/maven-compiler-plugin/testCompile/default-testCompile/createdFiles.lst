@@ -1,8 +1,0 @@
-com/hse/onlinestore/repositories/ProductCategoryRepositoriesTest.class
-com/hse/onlinestore/clients/CurrencyClientImplTest.class
-com/hse/onlinestore/TestUtils.class
-com/hse/onlinestore/controllers/ProductControllerTests.class
-com/hse/onlinestore/services/ProductServiceTest.class
-com/hse/onlinestore/OnlineStoreApplicationTests.class
-com/hse/onlinestore/services/CategoryServiceTest.class
-com/hse/onlinestore/controllers/CategoryControllerTests.class

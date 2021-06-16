@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.hse.onlinestore.controllers.CategoryControllerTests
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.071 s <<< FAILURE! - in com.hse.onlinestore.controllers.CategoryControllerTests
-getCategoryTest  Time elapsed: 0.018 s  <<< FAILURE!
-java.lang.AssertionError: JSON path "$.name" expected:<CATEGORY_NAME> but was:<CATEGORY1>
-	at com.hse.onlinestore.controllers.CategoryControllerTests.getCategoryTest(CategoryControllerTests.java:60)
-
